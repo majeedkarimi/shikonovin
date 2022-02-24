@@ -1,0 +1,15 @@
+<div class="col-sm-3">
+    <div class=" pull-left">
+        <form action="/products/search">
+            <input type="text" placeholder="جستـجو" value="{{ request.GET.query }}" name="query"/>
+            <input type="submit" value="جستجو">
+        </form>
+
+    </div>
+</div>
+
+{% comment %}
+form => send data by GET or POST
+value => fixed word search
+name => name query example:?query=موس or ?name=majid
+{% endcomment %}

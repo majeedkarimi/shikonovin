@@ -1,0 +1,1 @@
+default_app_config = 'shikonovin_contact.apps.ShikonovinContactConfig'
